@@ -1,0 +1,128 @@
+
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.element {
+    height: 100px;
+    width: 100px;
+    background-image: url(miniPlane.png);
+    background-repeat: no-repeat, no-repeat;
+}
+
+html {
+    background-color: #001;
+}
+
+h1 {
+    color: #eef;
+    display: inline-block;
+    font-size: 5vw;
+    left: 35%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.aliens > * {
+    animation: turn 5s ease-in;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: normal;
+    letter-spacing: 5px;
+    text-shadow: 0 0 .5rem #def;
+    transform: scaleY(4);
+    white-space: pre;
+}
+
+@keyframes turn {
+    0% {
+        text-shadow: 0 0 0 #def;
+        transform: scaleY(4) rotateY(90deg);
+    }
+
+    100% {
+        text-shadow: 0 0 .5rem #def;
+        transform: scaleY(4) rotateY(0);
+    }
+}
+
+h2 {
+    color: #eef;
+    display: inline-block;
+    position: absolute;
+    font-style: oblique;
+}
+
+.buttonStyle {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    font-style: oblique;
+    padding: 0;
+    border: none;
+    background: none;
+    color: #eef;
+    font-size: 2vw;
+}
+
+.loadingDiv {
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    color: white;
+}
+
+h4 {
+    color: #eef;
+    left: 20%;
+    position: absolute;
+    text-align: center;
+}
+
+.hideData {
+    display: none;
+}
+
+.floatingText {
+    display: inline-block;
+    font-size: 2vw;
+    left: 60%;
+    position: absolute;
+    top: 50%;
+    font-style: oblique;
+    color: #eef;
+}
+
+.startButton {
+    display: inline-block;
+    font-size: 3vw;
+    left: 45%;
+    position: absolute;
+    top: 50%;
+    font-style: oblique;
+    color: #eef;
+    animation: beat .9s infinite alternate;
+    transform-origin: center;
+}
+
+@keyframes beat {
+    to {
+        transform: scale(1.4);
+    }
+}
+
+
+
+
+
